@@ -32,7 +32,12 @@
             $this->employees[] = $employee;
         }
         public function getEmployee($id){
-            return $this->employees[$id];
+            foreach ($this->employees as $employee) {
+                if ($employee->getId() == $id) {
+                    return $this->employee;
+                }
+            }
+            return null;
         }
         public function getAverageAgeEmployee(){
             $totalAge = 0;
