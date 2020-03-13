@@ -1,5 +1,5 @@
 <?php
-    class DesignerType {
+    class ProgrammingLanguage extends SpecialtyType {
         private $id;
         private $name;
 
