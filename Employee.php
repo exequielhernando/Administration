@@ -6,10 +6,10 @@
         private $age;
         
         function __construct($id,$name, $lastName, $age) {
-            $this->id;
-            $this->name;
-            $this->lastName;
-            $this->age;
+            $this->id = $id;
+            $this->name = $name;
+            $this->lastName = $lastName;
+            $this->age = $age;
         }
         public function getId(){
             return $this->id;

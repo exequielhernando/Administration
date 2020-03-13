@@ -34,7 +34,7 @@
         public function getEmployee($id){
             foreach ($this->employees as $employee) {
                 if ($employee->getId() == $id) {
-                    return $this->employee;
+                    return $employee;
                 }
             }
             return null;
